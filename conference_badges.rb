@@ -9,5 +9,5 @@ end
   
 def assign_rooms(name)
   array = []
-  array.each_with_index{ |name, room| room_assignments(name) }
+  name.each_with_index{ |name, room| room_assignments(name) }
 end
