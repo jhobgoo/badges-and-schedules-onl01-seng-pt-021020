@@ -8,5 +8,6 @@ def batch_badge_creator(attendees)
 end
   
 def assign_rooms(name, room)
-  name.map{ |name, room| room_assignment(name, room) }
+  room = [1,2,3,4,5,6,7]
+  hello.map{ |name, room| room_assignment(name, room) }
 end
