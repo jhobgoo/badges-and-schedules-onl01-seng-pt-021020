@@ -7,6 +7,6 @@ def batch_badge_creator(name)
   name.map{ |name| badge_maker(name) }
 end
   
-def assign_rooms
-  name.each_with_index{ |name| room_assignments(name) }
+def assign_rooms(name)
+  name.each{ |name| room_assignments(name) }
 end
