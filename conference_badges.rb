@@ -4,8 +4,9 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(name)
-  name.map{ |speaker| badge_maker(speaker) }
+  name.map{ |name| badge_maker(name) }
 end
   
 def assign_rooms(name, room)
-  name.map{ |name, room
+  name.each_with_index{ |name, room| room_assignment(name, room)
+end
